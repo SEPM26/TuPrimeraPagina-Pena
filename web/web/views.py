@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 def Template (self):
 
-    miHtml = open("C:\Users\Sebastián\Desktop\Web1\web\app\templates\index.html")
+    miHtml = open("C:/Users/Sebastián/Desktop/Web1/web/app/templates/index.html")
 
     plantilla = Template(miHtml.red())
 
